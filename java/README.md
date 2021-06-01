@@ -15,10 +15,10 @@ You probably want to have an IDE installed, any of them will work, but if you wa
 You are ready for interview, when you can run these operation, either from a command line or from your favourite IDE:
 
 ```sh
-mvn compile
-mvn test
-mvn package
-mvn exec:java -Dexec.mainClass=exercise.HelloWorld
+./mvnw compile
+./mvnw test
+./mvnw package
+./mvnw exec:java -Dexec.mainClass=exercise.HelloWorld
 java -jar target/exercise.jar
 ```
 
