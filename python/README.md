@@ -16,12 +16,17 @@ If you already love Netbeans, Eclipse, Emacs, Vim, or have written your own IDE,
 
 ## Am I ready for the interview?
 
-It recommened run this in virtual envrionment such as venv or similar.
+It's recommended to run this in a virtual environment.
 
-You are ready for interview, when you can run these operation, either from command line or from your favourite IDE:
+```
+python3 -m venv venv
+source venv/bin/activate
+```
+
+You are ready for the interview, when you can run these operations, either from command line or from your favourite IDE:
 
 ```sh
-python install -r requirements.txt
+pip install -r requirements.txt
 python -m pytest
 python main.py
 ```
