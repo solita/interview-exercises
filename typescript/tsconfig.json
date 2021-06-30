@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "rootDir": ".",
+    "target": "ES5",
+    "downlevelIteration": true,
+    "outDir": "build",
+    "strict": false,
+    "skipLibCheck": true /* Skip type checking of declaration files. */,
+    "forceConsistentCasingInFileNames": true /* Disallow inconsistently-cased references to the same file. */,
+    "types": ["node", "jest"]
+  },
+  "compileOnSave": true,
+  "include": ["index.ts", "src/", "test/"]
+}
